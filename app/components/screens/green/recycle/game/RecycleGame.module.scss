@@ -1,0 +1,255 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1144px;
+  width: 100%;
+  margin: 0 auto 46px;
+  border-radius: 30px;
+
+  transform-origin: bottom;
+
+  min-height: 570px;
+  background: #8CCF3A;
+  padding: 130px 20px 0px;
+
+  @media (max-width: 767px) {
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.selector {
+  position: absolute;
+  top: 60px;
+}
+
+.question {
+  @apply absolute top-0 left-0 right-0 bottom-0 origin-center;
+}
+
+.header {
+  @apply flex flex-center absolute -top-12 left-0 right-0 text-center;
+
+  @media (max-width: 959px) {
+    top: -18px;
+  }
+}
+
+.logo {
+  background: #8CCF3A;
+  border-radius: 30px;
+  padding: 24px 60px;
+  z-index: 11;
+
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2C2C2C;
+
+  max-width: 390px;
+  width: 100%;
+
+  @media (max-width: 959px) {
+    width: 255px;
+    height: 50px;
+    padding: 0 22px;
+    font-size: 18px;
+    line-height: 1.25;
+    border-radius: 0 0 20px 20px;
+  }
+}
+
+.box {
+  background: #FFFFFF;
+  border-radius: 30px;
+  width: 100%;
+  min-height: 540px;
+  padding: 120px 10% 180px;
+
+  position: relative;
+
+  @apply flex flex-center;
+
+  @media (max-width: 767px) {
+    min-height: 340px;
+    padding: 80px 20px 80px;
+  }
+}
+
+.body {
+  max-width: 884px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.controls {
+  @apply absolute bottom-16 left-0 flex flex-center w-full;
+}
+
+.view {
+  @apply flex flex-col items-center w-full relative h-48;
+
+  //@media (max-width: 767px) {
+  //  height: 125px;
+  //}
+
+}
+
+.viewItem {
+  @apply h-48 flex items-center max-w-4xl w-full m-auto flex-col;
+
+
+  @media (max-width: 767px) {
+    height: 125px;
+  }
+}
+
+.tipsContainer {
+  @apply absolute top-0 left-0 w-full h-full;
+
+  padding: 120px 10% 150px;
+  z-index: 111;
+
+  @media (max-width: 767px) {
+    padding: 40px 10px 80px;
+  }
+}
+
+
+.gameItem {
+  @apply flex flex-center w-full h-full m-auto text-center;
+
+  img {
+    @apply max-h-full max-w-full;
+  }
+
+}
+
+.gameCaption {
+  //max-width: 215px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #A2A2A2;
+
+  @apply text-center uppercase mt-6;
+}
+
+.gameTip {
+  @apply absolute top-8 right-8;
+  z-index: -1;
+
+  @media (max-width: 959px) {
+    top: 36px;
+    right: 24px
+  }
+}
+
+.gamePanel {
+  @apply flex items-center justify-between w-full;
+  padding: 35px 40px;
+
+  max-width: 884px;
+  margin: 0px auto;
+
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  border-radius: 30px;
+  gap: 12px;
+
+  @media (max-width: 767px) {
+    padding: 12px;
+    bottom: 50px;
+  }
+}
+
+.gamePanelColumn {
+  @apply flex flex-center;
+  width: 33.333333%;
+  flex: 33.333333%;
+}
+
+.gameContainers {
+  max-width: 884px;
+  margin: -120px auto 48px;
+  padding: 0 40px;
+
+  z-index: 11;
+
+  @apply flex items-center w-full justify-between;
+
+  @media (max-width: 767px) {
+    padding: 0;
+
+    margin: -40px auto 48px;
+  }
+}
+
+.gameContainer {
+  @apply flex flex-center;
+  width: 33.333333%;
+  flex: 33.333333%;
+
+  @media (max-width: 767px) {
+    img {
+      max-width: 100%;
+      max-height: 170px;
+    }
+  }
+}
+
+.button {
+  @apply flex flex-center uppercase text-center cursor-pointer w-full;
+  max-width: 220px;
+  height: 49px;
+  left: 871px;
+  top: 543px;
+
+  background: #E0E0E0;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2C2C2C;
+}
+
+.option {
+  background: #8CCF3A;
+}
+
+.shape1 {
+  @apply absolute pointer-events-none;
+
+  top: calc(75 / 995 * 100%);
+  left: calc(-65 / 958 * 100%);
+  width: calc(226 / 958 * 100%);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.shape2 {
+  @apply absolute pointer-events-none;
+
+  bottom: calc(187 / 995 * 100%);
+  right: calc(-99 / 958 * 100%);
+  width: calc(198 / 958 * 100%);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

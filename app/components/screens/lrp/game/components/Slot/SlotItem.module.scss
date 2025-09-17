@@ -1,0 +1,67 @@
+.puzzle {
+  @apply cursor-pointer transition-transform text-center relative flex justify-center items-end;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  border-radius: 12px;
+  border: 2px dashed #009d86;
+
+
+  //@media screen and (min-width: 1024.02px) {
+  //  width: calc(6.85 * var(--size));
+  //  height: calc(11.5 * var(--size));
+  //}
+}
+
+// .puzzleBlue {
+// 	border: 2px dashed #36b0fc;
+// }
+// .puzzlePink {
+// 	border: 2px dashed #D32A5C;
+// }
+// .puzzleOrange {
+// 	border: 2px dashed #F4852C;
+// }
+
+.btn {
+  color: #000;
+  @media screen and (min-width: 1024.02px) {
+    font-size: calc(1 * var(--size));
+    padding: calc(0.6 * var(--size));
+  }
+  @media screen and (max-width: 450px) {
+    padding: 7px;
+  }
+}
+
+.currentPuzzle {
+  border: 4px solid #009d86;
+}
+
+// .currentPuzzleBlue {
+// 	border: 4px solid #36b0fc;
+// }
+// .currentPuzzlePink {
+// 	border: 4px solid #D32A5C;
+// }
+// .currentPuzzleOrange {
+// 	border: 4px solid #F4852C;
+// }
+.selected {
+  border-color: transparent !important;
+}
+
+.controls {
+  @apply absolute bottom-[-15%] left-0 right-0 flex justify-center;
+}
+
+.status {
+  @apply flex justify-center z-10 h-5;
+}

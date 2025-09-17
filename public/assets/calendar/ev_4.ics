@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:ACD Конгресс. Секция Особенности ведения пациентов – тинейджеров
+NAME:ACD Конгресс. Секция Особенности ведения пациентов – тинейджеров
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210928T140740Z
+DTSTART;TZID=Europe/Moscow:20211016T124500
+DTEND;TZID=Europe/Moscow:20211016T140500
+SUMMARY:ACD Конгресс. Секция Особенности ведения пациентов – тинейджеров
+URL:https://events.loreal.com.ru
+DESCRIPTION:12:45 – 13:05 Дерматозы подросткового возраста. Тамразова О.Б.\, д.м.н.\, проф.\, дерматолог\n13:10 – 13:30 Чем чреват пубертат? Особенности состояния волос\, уход и лечение. Ткачев В.П.\, к.м.н\, доц.\, дерматолог\, трихолог\, эндокринолог\n13:35 – 14: 05 Повышение комплаентности у подростков/психологические портреты. Клипинина Н.В.\, клинический психолог
+LOCATION:https://events.loreal.com.ru
+END:VEVENT
+END:VCALENDAR

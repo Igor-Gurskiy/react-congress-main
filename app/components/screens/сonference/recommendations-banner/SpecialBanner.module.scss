@@ -1,0 +1,96 @@
+.wrapper {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.heading {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0.55px;
+  text-transform: uppercase;
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.headingPassed {
+  color: #DE0311;
+  font-weight: 600;
+}
+
+.content {
+  min-height: 250px;
+  display: flex;
+
+  background: #fff;
+  border-radius: 12px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  width: 100%;
+}
+
+.name {
+  color: #232323;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  margin-top: 32px;
+
+  b {
+    font-weight: 800;
+  }
+}
+
+.med {
+  pointer-events: none;
+}
+
+.time {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.06px;
+
+  margin-top: 14px;
+}
+
+.button {
+  border-radius: 4px;
+  background: #DE0311;
+  outline: none;
+  border: none;
+  width: 100%;
+
+  margin-top: 16px;
+
+  padding: 12px;
+
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+
+}
+
+.controls {
+
+}

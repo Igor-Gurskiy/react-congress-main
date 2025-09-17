@@ -1,0 +1,150 @@
+.wrapper {
+  max-width: 640px;
+  text-align: center;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  padding: 16px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 16px;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px;
+  }
+}
+
+.content {
+}
+
+.title {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+}
+
+
+.text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+  max-width: 440px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+.controls {
+  @apply flex justify-center;
+  padding: 32px;
+}
+
+.caption {
+  color: #36B0FC;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px; /* 83.333% */
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.sCaption {
+  color: #565656;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px; /* 83.333% */
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.section {
+  margin-top: 48px;
+
+}
+
+.itemList {
+  list-style: none;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.itemCover {
+  width: 100px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    width: 64px;
+  }
+}
+
+.itemInfo {
+  text-align: left;
+}
+
+.itemName {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.itemDescription {
+  margin-top: 4px;
+  color: #2C2C2C;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px; /* 131.25% */
+}

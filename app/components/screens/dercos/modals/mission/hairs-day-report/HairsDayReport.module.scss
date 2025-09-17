@@ -1,0 +1,155 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  background: #fff;
+  width: 100%;
+  position: relative;
+
+
+  @media screen and (max-width: 1023.98px) {
+    max-width: 768px;
+    background: none;
+  }
+}
+
+.body {
+  @media screen and (max-width: 1023.98px) {
+    max-width: 768px;
+    background: none;
+  }
+}
+
+.logo {
+  max-height: 90px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.brandControls {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1023.98px) {
+    font-size: 24px;
+  }
+}
+
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 32px;
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+}
+
+.content {
+  background: url("/assets/images/dercos/modals/mission/dercos-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 72px;
+
+  @media screen and (max-width: 1023.98px) {
+    padding: 80px 48px;
+  }
+
+}
+
+.results {
+  color: #FFF;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 32px;
+  }
+}
+
+.digit {
+  color: #FFF;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 110%; /* 136.287px */
+  letter-spacing: -2.478px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1023.98px) {
+    font-size: 64px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 32px;
+  }
+}
+
+.pros {
+  margin: 80px auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 45.429px */
+  letter-spacing: 1.239px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+}
+
+.ps {
+  color: #008311;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.21px;
+
+  @media screen and (max-width: 1023.98px) {
+    font-size: 52px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 32px;
+  }
+}
+
+
+

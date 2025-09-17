@@ -1,0 +1,121 @@
+.tip {
+  @apply relative w-full;
+
+  padding: 48px 90px 32px;
+  border-radius: 30px;
+  background: #F5D19B;
+
+  @media (max-width: 767px) {
+    padding: 43px 20px 20px;
+    bottom: auto;
+  }
+}
+
+.incorrectTip {
+  background: #383838;
+}
+
+.tipHeader {
+  position: absolute;
+  top: -32px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.tipLogoWrapper {
+  display: inline-flex;
+  text-align: center;
+}
+
+.tipLogo {
+  height: 73px;
+  width: 73px;
+}
+
+.tipTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tipBody {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2C2C2C;
+
+  @apply flex flex-col h-full;
+
+  @media (max-width: 767px) {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.incorrectTipBody {
+  color: #E0BC86;
+}
+
+.tipContent {
+  @apply flex flex-col flex-grow;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 32px;
+
+  img.correct {
+    display: none;
+  }
+
+  img.incorrect {
+    display: block;
+  }
+}
+
+.tipContentCorrect {
+  img.correct {
+    display: block;
+  }
+
+  img.incorrect {
+    display: none;
+  }
+}
+
+.controls {
+  @apply flex items-center justify-around max-w-xs m-auto w-full;
+
+  gap: 12px;
+}
+
+.button {
+  @apply flex flex-center uppercase text-center cursor-pointer;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 16px !important;
+  min-width: 110px;
+  height: 34px;
+}
+
+.nextButton {
+  background: #8CCF3A;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.moreButton {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  color: #2C2C2C;
+}

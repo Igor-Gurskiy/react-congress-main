@@ -1,0 +1,253 @@
+.wrapper {
+
+  max-width: 1024px;
+  background: #fff;
+  width: 100%;
+
+
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1023.98px) {
+    flex-direction: column;
+    max-width: 768px;
+  }
+}
+
+.imageCol {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+
+
+  @media screen and (max-width: 1023.98px) {
+
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.leftCol {
+  display: flex;
+  width: 55%;
+  position: relative;
+
+  @media screen and (max-width: 1023.98px) {
+    width: 100%;
+    max-height: 75vh;
+  }
+}
+
+.rightCol {
+  width: 45%;
+  position: relative;
+
+  @media screen and (max-width: 1023.98px) {
+    width: 100%;
+  }
+}
+
+.header {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 28px;
+  }
+}
+
+.content {
+  padding: 160px 48px 48px 48px;
+
+  @media screen and (max-width: 1023.98px) {
+    padding: 32px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 24px 24px 24px 16px;
+  }
+}
+
+.list {
+  list-style: none;
+  margin-top: 48px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+
+  @media screen and (max-width: 767.98px) {
+    gap: 16px;
+  }
+}
+
+.name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 14px;
+  }
+}
+
+.percent {
+  color: #FFF;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 32px;
+  }
+}
+
+.caption {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 110%; /* 25.3px */
+  letter-spacing: 0.69px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+}
+
+.text {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 110%; /* 22px */
+  letter-spacing: 0.6px;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 12px;
+  }
+}
+
+.sub {
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 110%; /* 94.6px */
+  letter-spacing: -1.72px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 48px;
+  }
+}
+
+.question {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  img {
+    height: 100%;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    height: 40px;
+  }
+}
+
+
+.controls {
+  flex-shrink: 0;
+}
+
+.desktopLogo {
+  display: block;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
+}
+
+.mobileLogo {
+  display: none;
+  max-width: 100px;
+
+  @media screen and (max-width: 1023.98px) {
+    display: block;
+  }
+}
+
+.vRight {
+  display: none;
+  max-width: 100px;
+
+  @media screen and (max-width: 1023.98px) {
+    display: block;
+  }
+}
+
+.vWrapper {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+
+  @media screen and (max-width: 767.98px) {
+    bottom: 8px;
+    right: 8px;
+  }
+}
+
+.info {
+  @apply absolute bottom-14 left-0 right-0 flex flex-center;
+
+
+  @media screen and (max-width: 767.98px) {
+    padding: 0 16px;
+    bottom: 32px;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}

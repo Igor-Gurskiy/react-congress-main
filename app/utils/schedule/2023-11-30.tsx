@@ -1,0 +1,118 @@
+import { EventsEnum } from '@/api/tracker'
+import { ScheduleSectionType } from '@/components/Schedule/ScheduleSection'
+
+const schedule: ScheduleSectionType[] = [
+	{
+		id: 1,
+		slug: 'open',
+		name: 'ОТКРЫТИЕ КОНГРЕССА. <br />Интервью с экспертами',
+		start: 1701327600000,
+		end: 1701334800000,
+		live: true,
+		calendar: false,
+		visible: false,
+		googleLink:
+			'http://www.google.com/calendar/event?action=TEMPLATE&dates=20231130T070000Z%2F20231130T090000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A2%D0%BE%D1%80%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B0%22&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=',
+		iosLink: '/assets/calendar/30_nov_open.ics',
+		record: 'DZ9Do1JsNMU',
+		recordPreview: 'assets/images/conference/2023/day1/q1.png',
+		trackerId: EventsEnum.confDay1Video1,
+	},
+	{
+		id: 2,
+		name: 'социальный<br /> проект',
+		slug: 'social',
+		start: 1701334800000,
+		end: 1701336600000,
+		live: true,
+		calendar: true,
+		visible: true,
+		googleLink:
+			'http://www.google.com/calendar/event?action=TEMPLATE&dates=20231130T090000Z%2F20231130T093000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%22%20&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=',
+		iosLink: '/assets/calendar/30_nov_social.ics',
+		record: undefined,
+		recordPreview: undefined,
+		events: [
+			{
+				id: 1,
+				name: 'Детская онкология. Дискуссия.<br />Программа La Fondation La Roche-Posay',
+				author:
+					'<p class="space">Минасян К. — руководитель программы La Fondation La Roche-Posay вРоссии</p><p class="space">Клипинина Н.В. — клинический онкопсихолог, научный сотрудникотделения Клинической Психологии ФГБУ НМИЦ ДГОИ им. ДмитрияРогачева</p><p class="space">Волкова А.Г. — к.м.н., врач-педиатр, зав. отд. восстановительноймедицины НИИ детской онкологии, гематологии и трансплантологии им.Р.М. Горбачёвой</p><p class="space">Голева М. — соучредитель родительской организации Энби</p>',
+				start: 1701334800000,
+				end: 1701336600000,
+				preview: 'G2LAUBuhgPk',
+				previewImage: 'assets/images/conference/2023/day1/q2.png',
+				trackerId: EventsEnum.confDay1Video2,
+			},
+		],
+	},
+	{
+		id: 3,
+		name: <>СЕКЦИЯ «МЕДИЦИНА ОНЛАЙН»</>,
+		slug: 'medical',
+		start: 1701336600000,
+		end: 1701343800000,
+		live: true,
+		calendar: true,
+		visible: true,
+		googleLink:
+			'http://www.google.com/calendar/event?action=TEMPLATE&dates=20231130T093000Z%2F20231130T120000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%22%20&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=',
+		iosLink: '/assets/calendar/30_nov_med.ics',
+		record: undefined,
+		events: [
+			{
+				id: 1,
+				name: 'Рынок телемедицины в России',
+				author:
+					'Сикирина М.С. — директор департамента цифровых сервисов, СберЗдоровье',
+				start: 1701336600000,
+				end: 1701338400000,
+				preview: 'Np7DDqg3C-c',
+				previewImage: 'assets/images/conference/2023/day1/q3.png',
+				trackerId: EventsEnum.confDay1Video3,
+			},
+			{
+				id: 2,
+				name: 'Медицина и искусственный интеллект',
+				author: 'Мурашкин Н.Н. — д.м.н., проф., врач-дерматолог',
+				start: 1701338400000,
+				end: 1701340200000,
+				preview: 'vO7pJMUL9lw',
+				previewImage: 'assets/images/conference/2023/day1/q4.png',
+				trackerId: EventsEnum.confDay1Video4,
+			},
+			{
+				id: 3,
+				name: 'Роль социальных сетей в карьере врача',
+				author: 'Берковская М.А. — к.м.н., доцент, врач-эндокринолог',
+				start: 1701340200000,
+				end: 1701342000000,
+				preview: 'KclGh6v2-Ss',
+				previewImage: 'assets/images/conference/2023/day1/q5.png',
+				trackerId: EventsEnum.confDay1Video5,
+			},
+			{
+				id: 4,
+				name: 'Личный бренд врача вне времени',
+				author: 'Галлямова Ю.А. — д.м.н., проф., врач-дерматолог',
+				start: 1701342000000,
+				end: 1701343800000,
+				preview: 'R7wAVLlgMQo',
+				previewImage: 'assets/images/conference/2023/day1/q6.png',
+				trackerId: EventsEnum.confDay1Video6,
+			},
+			// {
+			// 	id: 5,
+			// 	name: '5 шагов к запуску успешного блога врача',
+			// 	author: 'Абакумов О.А. — врач-терапевт, пульмонолог, реабилитолог',
+			// 	start: 1701343800000,
+			// 	end: 1701345600000,
+			// 	preview: '',
+			// 	previewImage: '',
+			// 	trackerId: EventsEnum.confDay1Video9,
+			// },
+		],
+	},
+]
+
+export default schedule

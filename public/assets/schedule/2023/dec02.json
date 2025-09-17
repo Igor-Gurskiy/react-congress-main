@@ -1,0 +1,152 @@
+{
+  "date": "2023-12-02",
+  "data": [
+    {
+      "id": 1,
+      "slug": "acne",
+      "name": "СЕКЦИЯ «АКНЕ И РОЗАЦЕА»",
+      "start": 1701500400000,
+      "end": 1701513600000,
+      "live": true,
+      "calendar": false,
+      "visible": false,
+      "googleLink": "http://www.google.com/calendar/event?action=TEMPLATE&dates=20231202T070000Z%2F20231202T103000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%94%D0%B5%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D1%8B%20%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D1%85.%20%D0%90%D0%BA%D0%BD%D0%B5%20%D0%B8%20%D1%80%D0%BE%D0%B7%D0%B0%D1%86%D0%B5%D0%B0%22&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=",
+      "iosLink": "/assets/calendar/2_dec_adult_acne.ics",
+      "record": "",
+      "events": [
+        {
+          "id": 1,
+          "name": "Акне. Основные положения патогенеза",
+          "author": "Аравийская Е.А. — д.м.н., проф., врач-дерматолог",
+          "start": 1701500400000,
+          "end": 1701502800000,
+          "preview": "PXhAI_h3ek0",
+          "previewImage": "assets/images/conference/2023/day3/s1.png",
+          "trackerId": "confDay3Video1"
+        },
+        {
+          "id": 2,
+          "name": "Катамениальные акне.<br />Что мы о них знаем?",
+          "author": "Решетникова Т.Б. — д.м.н., проф., врач-дерматолог, гениколог-эндокринолог",
+          "start": 1701502800000,
+          "end": 1701505200000,
+          "preview": "cNEm46gTV2s",
+          "previewImage": "assets/images/conference/2023/day3/s2.png",
+          "trackerId": "confDay3Video2"
+        },
+        {
+          "id": 3,
+          "name": "Ось ЖКТ — кожа: от деталей патогенеза к практическим решениям",
+          "author": "Шевяков М.А. — д.м.н., проф., врач-гастроэнтеролог",
+          "start": 1701505200000,
+          "end": 1701507000000,
+          "preview": "S-lSrsoKSUo",
+          "previewImage": "assets/images/conference/2023/day3/s3.png",
+          "trackerId": "confDay3Video3"
+        },
+        {
+          "id": 4,
+          "name": "Лечение акне: терапия сопровождения",
+          "author": "Сергеева И.Г. — д.м.н., проф., врач-дерматолог",
+          "start": 1701507000000,
+          "end": 1701508800000,
+          "preview": "DJWIFCKGHTA",
+          "previewImage": "assets/images/conference/2023/day3/s4.png",
+          "trackerId": "confDay3Video4"
+        },
+        {
+          "id": 5,
+          "name": "Акне у пациентов с коморбидностями: что нужно учесть при назначении терапии",
+          "author": "Смирнова И.О. — д.м.н., профессор, врач-дерматолог",
+          "start": 1701508800000,
+          "end": 1701510600000,
+          "preview": "m28iHlAKqCw",
+          "previewImage": "assets/images/conference/2023/day3/s5.png",
+          "trackerId": "confDay3Video5"
+        },
+        {
+          "id": 6,
+          "name": "Розацеа. Основные положения: микробиом, лечение, уход",
+          "author": "Аравийская Е.А. — д.м.н., проф., врач-дерматолог",
+          "start": 1701510600000,
+          "end": 1701513000000,
+          "preview": "EyFIzyebMjs",
+          "previewImage": "assets/images/conference/2023/day3/s6.png",
+          "trackerId": "confDay3Video6"
+        },
+        {
+          "id": 7,
+          "name": "<div class=\"break\">Перерыв</div>",
+          "author": null,
+          "start": 1701513000000,
+          "end": 1701514800000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "derm",
+      "name": "СЕКЦИЯ «МНОГООБРАЗИЕ ДЕРМАТОЗОВ<br />В ПРАКТИКЕ ВРАЧА»",
+      "start": 1701514800000,
+      "end": 1701525600000,
+      "live": true,
+      "calendar": false,
+      "visible": false,
+      "googleLink": "http://www.google.com/calendar/event?action=TEMPLATE&dates=20231202T110000Z%2F20231202T140000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%94%D0%B5%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D1%8B%20%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D1%85.%20%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5%20%D0%B4%D0%B5%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BE%D0%B2%20%D0%B2%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B5%20%D0%B2%D1%80%D0%B0%D1%87%D0%B0%22&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=",
+      "iosLink": "/assets/calendar/2_dec_adult_doc.ics",
+      "record": "",
+      "events": [
+        {
+          "id": 1,
+          "name": "Дерматозы лица: особенности диагностики, лечения, профилактики (ЧК, СД, розацеа и т.д.)",
+          "author": "Летяева О.И. — д.м.н., проф., врач- дерматолог",
+          "start": 1701514800000,
+          "end": 1701516600000,
+          "preview": "Iv00Iy7SQWM",
+          "previewImage": "assets/images/conference/2023/day3/s7.png",
+          "trackerId": "confDay3Video7"
+        },
+        {
+          "id": 2,
+          "name": "Дерматозы волосистой части головы: <br />дифференциальный диагноз и подходы к терапии",
+          "author": "<p>Круглова Л.С. — д.м.н., проф., врач-дерматолог</p><p>Львов А.Н. — д.м.н., проф., врач-дерматолог</p>",
+          "start": 1701516600000,
+          "end": 1701519000000,
+          "preview": "l8CwhBbah4k",
+          "previewImage": "assets/images/conference/2023/day3/s8.png",
+          "trackerId": "confDay3Video8"
+        },
+        {
+          "id": 3,
+          "name": "Зуд при различных дерматозах",
+          "author": "Соколовский Е.В. — д.м.н., проф., врач- дерматолог",
+          "start": 1701519000000,
+          "end": 1701520800000,
+          "preview": "iM7TsmLWJiQ",
+          "previewImage": "assets/images/conference/2023/day3/s9.png",
+          "trackerId": "confDay3Video9"
+        },
+        {
+          "id": 4,
+          "name": "Высокое качество жизни пациента как цель терапии псориаза",
+          "author": "<p>Хлебникова А.Н. — д.м.н., проф., врач-дерматолог</p><p>Прокофьев А.А. — врач-дерматолог</p>",
+          "start": 1701520800000,
+          "end": 1701523200000,
+          "preview": "NW3ZE64FNG4",
+          "previewImage": "assets/images/conference/2023/day3/s10.png",
+          "trackerId": "confDay3Video10"
+        },
+        {
+          "id": 5,
+          "name": "Ксероз при сахарном диабете",
+          "author": "<p>Стремоухов А.А. — д.м.н., проф., врач общей практики</p><p>Дворянкова Е.В. — д.м.н., проф., врач-дерматолог</p>",
+          "start": 1701523200000,
+          "end": 1701525600000,
+          "preview": "ZxaNTzAK4k8",
+          "previewImage": "assets/images/conference/2023/day3/s11.png",
+          "trackerId": "confDay3Video11"
+        }
+      ]
+    }
+  ]
+}

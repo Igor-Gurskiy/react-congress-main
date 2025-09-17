@@ -1,0 +1,101 @@
+import { ScheduleSectionType } from '@/components/Schedule/ScheduleSection'
+import { EventsEnum } from '@/api/tracker'
+
+const schedule: ScheduleSectionType[] = [
+	{
+		id: 1,
+		slug: 'onco',
+		name: 'СЕКЦИЯ «ОНКОЛОГИя»',
+		start: 1701590400000,
+		end: 1701605400000,
+		live: true,
+		calendar: false,
+		visible: false,
+		googleLink:
+			'http://www.google.com/calendar/event?action=TEMPLATE&dates=20231203T080000Z%2F20231203T121000Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%9E%D0%BD%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%22&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=',
+		iosLink: '/assets/calendar/3_dec_onco.ics',
+		record: undefined,
+		events: [
+			{
+				id: 1,
+				name: 'Современные методы лечения меланомы кожи',
+				author: 'Титов К.С. — д.м.н., проф., врач-онколог',
+				start: 1701590400000,
+				end: 1701592800000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video1,
+			},
+			{
+				id: 2,
+				name: 'Прогрессирование на фоне моноиммунотерапии в амбулаторном периоде. Выявление, диф. диагностика, тактика врача',
+				author: 'Багрова С.Г. — к.м.н., врач-онколог, химиотерапевт',
+				start: 1701592800000,
+				end: 1701594600000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video2,
+			},
+			{
+				id: 3,
+				name: 'Управление иммуноопосредованными нежелательными явлениями: кто управляет?',
+				author: 'Шатохина Е.А. — д.м.н., проф., врач-дерматолог',
+				start: 1701594600000,
+				end: 1701596400000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video3,
+			},
+			{
+				id: 4,
+				name: 'Когда нужен дерматолог при меланоме: особенности ведения кожных токсических реакций на фоне терапии ингибиторами BRAF и MEK',
+				author: 'Миченко А.В. — к.м.н., врач-дерматолог',
+				start: 1701596400000,
+				end: 1701598200000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video4,
+			},
+			{
+				id: 5,
+				name: '<div class="break">Перерыв</div>',
+				author: null,
+				start: 1701598200000,
+				end: 1701599400000,
+			},
+			{
+				id: 6,
+				name: 'Лучевая терапия в лечении больных меланомой. Эффективнее, чем вы могли себе представить. И даже еще эффектнее!',
+				author: 'Романов Д.С. — к.м.н., врач-радиотерапевт',
+				start: 1701599400000,
+				end: 1701601200000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video5,
+			},
+			{
+				id: 7,
+				name: 'Роль эмолентов в профилактике и компенсации проявлений нежелательных лучевых реакций со стороны кожи: результаты собственного клинического наблюдения',
+				author: 'Балаева Д.А. — врач-радиотерапевт',
+				start: 1701601200000,
+				end: 1701603000000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video6,
+			},
+			{
+				id: 8,
+				name: 'Специфические осложнения кожи и подходы к их компенсации при использовании протонной терапии',
+				author:
+					'Михайлов А.В. — к.м.н, зав. отделением лучевой терапии МИБС им. Сергея Березина',
+				start: 1701603000000,
+				end: 1701605400000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay4Video7,
+			},
+		],
+	},
+]
+
+export default schedule

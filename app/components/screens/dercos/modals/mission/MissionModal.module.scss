@@ -1,0 +1,81 @@
+.header {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.content {
+  padding: 160px 48px;
+}
+
+.list {
+  list-style: none;
+  margin-top: 48px;
+}
+
+.name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}
+
+.percent {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+
+.caption {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 110%; /* 25.3px */
+  letter-spacing: 0.69px;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 110%; /* 22px */
+  letter-spacing: 0.6px;
+}
+
+.sub {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 110%; /* 94.6px */
+  letter-spacing: -1.72px;
+  text-transform: uppercase;
+}
+
+.question {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,81 @@
+.carouselWrapper {
+  @apply cursor-grab overflow-hidden relative w-full flex-grow;
+  @media screen and (min-width: 1024.02px) {
+    padding: 0 calc(6.5 * var(--size));
+    margin-right: calc(6.5 * var(--size));
+  }
+}
+
+.carousel {
+  @apply inline-flex;
+
+  list-style: none;
+  column-gap: calc(1.4 * var(--size));
+
+  img {
+    @apply pointer-events-none max-h-full;
+  }
+}
+
+.carouselItem {
+  //@apply text-center h-full flex flex-col;
+  //width: 8vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.productName {
+  color: #000;
+
+  text-align: center;
+  font-size: calc(1 * var(--size));
+  font-weight: 300;
+  line-height: 120%;
+
+  margin-top: calc(1 * var(--size));
+
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
+.container {
+  @apply flex flex-grow items-center h-full;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+}
+
+.arrowLeft {
+  position: absolute;
+  left: calc(1 * var(--size));
+}
+
+.arrowRight {
+  position: absolute;
+  right: calc(1 * var(--size));
+
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.image {
+  @apply max-h-[25vmax];
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  padding: 0 calc(1.4 * var(--size));
+}
+
+.selected {
+  @apply opacity-25;
+}

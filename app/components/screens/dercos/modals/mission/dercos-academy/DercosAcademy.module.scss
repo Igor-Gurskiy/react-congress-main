@@ -1,0 +1,326 @@
+.wrapper {
+  max-width: 1024px;
+  background: #fff;
+  width: 100%;
+  position: relative;
+
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+
+  @media screen and (max-width: 1023.98px) {
+    flex-direction: column-reverse;
+    max-width: 768px;
+  }
+}
+
+.leftCol {
+  display: flex;
+  width: 60%;
+  position: relative;
+
+  @media screen and (max-width: 1023.98px) {
+    width: 100%;
+
+  }
+}
+
+.rightCol {
+  width: 40%;
+  position: relative;
+
+  @media screen and (max-width: 1023.98px) {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+
+.academy {
+  width: 100%;
+}
+
+.academy {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+}
+
+.computer {
+  position: absolute;
+  width: 110%;
+  bottom: 0;
+  right: 25%;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+}
+
+.academyPc {
+  width: 100%;
+}
+
+.academyMedia {
+  position: absolute;
+  width: 60%;
+  height: 58%;
+  bottom: 36.5%;
+  left: 20%;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+}
+
+.academyTablet {
+  width: 100%;
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
+}
+
+.academyMobile {
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+
+.controls {
+  flex-shrink: 0;
+}
+
+.info {
+  @apply absolute bottom-14 left-0 right-0 flex flex-center gap-x-4 px-14;
+
+
+  @media screen and (max-width: 767.98px) {
+    padding: 0 16px;
+    bottom: 32px;
+  }
+}
+
+.desktopLogo {
+  display: block;
+
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
+}
+
+.mobileLogo {
+  display: none;
+  max-width: 100px;
+
+  @media screen and (max-width: 1023.98px) {
+    display: block;
+  }
+}
+
+.chevron {
+  max-width: 200px;
+  width: 100%;
+
+  position: absolute;
+
+  @media screen and (max-width: 767.98px) {
+    max-width: 100px;
+    display: none;
+  }
+
+
+}
+
+.vRight {
+  bottom: 16px;
+  right: 16px;
+
+  @media screen and (max-width: 1023.98px) {
+    bottom: 8px;
+    right: 8px;
+  }
+}
+
+.vLeft {
+  top: 16px;
+  left: 16px;
+
+  @media screen and (max-width: 1023.98px) {
+    top: 8px;
+    left: 8px;
+  }
+}
+
+
+.brand {
+  color: #005F36;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 28px;
+  }
+}
+
+.subtitle {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0.746px;
+  text-transform: uppercase;
+  margin-top: 8px;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+}
+
+.header {
+  width: 100%;
+  @media screen and (max-width: 1023.98px) {
+    display: none;
+  }
+
+}
+
+.content {
+  padding: 72px;
+
+  @media screen and (max-width: 1023.98px) {
+    padding: 16px 52px 52px 52px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 16px;
+  }
+}
+
+
+.list {
+  margin-top: 60px;
+  list-style: none;
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 1023.98px) {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    gap: 24px;
+  }
+}
+
+.listItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.num {
+  flex-shrink: 0;
+  background: #005F36;
+
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  @media screen and (max-width: 767.98px) {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.numText {
+  color: #FFF;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 0.7;
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 48px;
+  }
+
+}
+
+.caption {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+
+  b {
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    font-size: 16px;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.mobileHeader {
+  display: none;
+  width: 80%;
+
+  padding: 16px;
+
+  @media screen and (max-width: 767.98px) {
+    display: block;
+  }
+}
+
+.tabletHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50%;
+  padding: 78px 52px;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
+}

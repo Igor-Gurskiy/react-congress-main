@@ -1,0 +1,40 @@
+.controls {
+  @apply mx-auto flex justify-center items-center;
+}
+
+.wrapper {
+  background-color: #fff;
+  text-align: center;
+  padding: 32px;
+  border-radius: 11px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.08);
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    transform: rotate(45deg) translateX(-50%) translateY(-50%);
+  }
+}
+
+.content {
+  position: relative;
+
+  max-width: 380px;
+  width: 100%;
+
+  img {
+    margin-bottom: 16px;
+  }
+}
+
+.text {
+  @apply text-center text-[#565656] mb-8 mx-auto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+}

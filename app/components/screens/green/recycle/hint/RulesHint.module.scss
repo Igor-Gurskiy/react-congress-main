@@ -1,0 +1,47 @@
+.hint {
+  background-color: #E5E5E5;
+  max-width: 958px;
+  padding: 16px 100px 16px;
+  border-radius: 32px;
+
+  margin: 46px auto;
+
+  @apply flex flex-col-reverse relative overflow-hidden w-full;
+
+  flex-shrink: 0;
+
+  @media (max-width: 767px) {
+    padding: 16px;
+  }
+
+}
+
+.hintBody {
+  @apply flex items-center;
+}
+
+.hintIconButton {
+  pointer-events: none;
+}
+
+.hintIcon {
+  margin-right: 34px;
+
+  @media (max-width: 767px) {
+    margin-right: 16px;
+  }
+}
+
+.hintTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+  color: rgba(44, 44, 44, 0.5);
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+  }
+}

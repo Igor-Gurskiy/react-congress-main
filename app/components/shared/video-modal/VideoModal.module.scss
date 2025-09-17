@@ -1,0 +1,53 @@
+.academy {
+  @apply flex flex-center flex-col h-full;
+  width: 100%;
+
+  @media (orientation: landscape) {
+    width: 80%;
+  }
+}
+
+.wrapper {
+  @apply w-full;
+  max-width: 1024px;
+}
+
+.videoPlayer {
+  @apply w-full aspect-video bg-white rounded-lg overflow-hidden relative;
+  padding-top: 56.25%;
+
+  iframe {
+    @apply w-full h-full w-full aspect-video absolute top-0 left-0;
+  }
+}
+
+.header {
+  @apply flex w-full items-center justify-end;
+  max-width: 1024px;
+}
+
+.close {
+  @apply cursor-pointer p-3 -mr-3 flex flex-center;
+}
+
+.download {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: #00ACC2;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 508px;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+}

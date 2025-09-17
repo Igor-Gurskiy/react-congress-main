@@ -1,0 +1,51 @@
+.wrapper {
+  @apply flex gap-x-4 relative cursor-pointer;
+  --shadow-color: rgba(255, 255, 255, 0.5);
+
+  height: 86px;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  background: linear-gradient(98deg, #0073C7 0%, #006DC1 99.58%);
+  transition: filter 0.25s;
+
+  &:hover {
+    filter: drop-shadow(-3px -3px 5px var(--shadow-color)) drop-shadow(3px -3px 5px var(--shadow-color)) drop-shadow(-3px 3px 5px var(--shadow-color)) drop-shadow(3px 3px 5px var(--shadow-color));
+  }
+}
+
+.imageContainer {
+  @apply -my-1.5 -ml-0.5 bg-white relative;
+  border: 1.5px solid #FFF;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    user-select: none
+  }
+}
+
+.info {
+  @apply flex flex-col justify-center py-2 gap-y-1;
+}
+
+.date {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.name {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0.408px;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,48 @@
+.carouselWrapper {
+  @apply cursor-grab overflow-hidden relative w-full;
+}
+
+.carousel {
+  @apply inline-flex;
+
+  list-style: none;
+  column-gap: 20px;
+  padding: 0 30px;
+
+
+  // box-shadow: 0px 11px 12px 0px rgba(0, 115, 99, 0.1),
+  // 	0px 40px 35px 0px rgba(10, 189, 178, 0.36),
+  // 	0px 53px 66px 0px rgba(166, 245, 248, 0.1);
+
+
+  column-gap: 5px;
+}
+
+.container {
+}
+
+
+.arrow {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  color: #000;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.arrowLeft {
+  position: absolute;
+  left: calc(1 * var(--size));
+}
+
+.arrowRight {
+  position: absolute;
+  right: calc(1 * var(--size));
+
+  svg {
+    transform: rotate(180deg);
+  }
+}

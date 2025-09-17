@@ -1,0 +1,4 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [["styled-components", { "ssr": true }], "@babel/transform-runtime", "@babel/plugin-transform-proto-to-assign"]
+  }

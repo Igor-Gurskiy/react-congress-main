@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:ACD Конгресс. Секция Дерматозы взрослых
+NAME:ACD Конгресс. Секция Дерматозы взрослых
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210928T140447Z
+DTSTART;TZID=Europe/Moscow:20211017T100000
+DTEND;TZID=Europe/Moscow:20211017T113000
+SUMMARY:ACD Конгресс. Секция Дерматозы взрослых
+URL:https://events.loreal.com.ru
+DESCRIPTION:10:00 – 10:30 Проблема акне у взрослых: мнение эксперта. Аравийская Е.А.\, д.м.н.\, проф.\, дерматолог\n10:35 – 10:55 Ксероз при дерматозах и не только. Соколовский Е.В.\, д.м.н.\, проф.\, дерматолог\n11:00 – 11:20 Как можно улучшить качество жизни больных с псориазом? Хобейш М.М.\, к.м.н.\, доц.\, дерматолог
+LOCATION:https://events.loreal.com.ru
+END:VEVENT
+END:VCALENDAR

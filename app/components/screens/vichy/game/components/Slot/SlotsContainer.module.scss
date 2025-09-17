@@ -1,0 +1,14 @@
+.carouselWrapper {
+  @apply cursor-grab overflow-hidden relative w-full;
+
+}
+
+.carousel {
+  @apply inline-flex;
+
+  list-style: none;
+  column-gap: 48px;
+}
+
+.container {
+}

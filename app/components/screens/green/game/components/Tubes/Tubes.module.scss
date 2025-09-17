@@ -1,0 +1,89 @@
+.tube {
+  position: absolute;
+  top: 0;
+  //left: 0;
+}
+
+.tube1 {
+  position: absolute;
+  top: -10%;
+  left: 1%;
+  transform: rotate(-50deg) translateX(-50%);
+
+  @media screen and (max-width: 1023.98px) {
+    top: -5%;
+    left: -4%;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    top: -7%;
+    left: -12%;
+  }
+
+  @media screen and (max-width: 375.98px) {
+    top: -4%;
+    left: -20%;
+  }
+}
+
+.tube2 {
+  position: absolute;
+  top: -20%;
+  left: 28%;
+  transform: rotate(-15deg) translateX(-50%);
+
+  @media screen and (max-width: 1023.98px) {
+    top: -20%;
+    left: 20%;
+  }
+}
+
+.tube3 {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: rotate(0deg) translateX(-50%);
+
+  @media screen and (max-width: 1023.98px) {
+    top: -18%;
+  }
+}
+
+.tube4 {
+  position: absolute;
+  top: -15%;
+  left: 72%;
+  transform: rotate(15deg) translateX(-50%);
+
+  @media screen and (max-width: 1023.98px) {
+    top: -18%;
+    left: 80%;
+  }
+}
+
+.tube5 {
+  position: absolute;
+  top: 4%;
+  left: 95%;
+  transform: rotate(50deg) translateX(-50%);
+
+  @media screen and (max-width: 1023.98px) {
+    top: 5%;
+    left: 100%;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    top: 5%;
+    left: 100%;
+  }
+
+  @media screen and (max-width: 575.98px) {
+    top: 0;
+    left: 110%;
+  }
+
+  @media screen and (max-width: 375.98px) {
+    top: 0;
+    left: 115%;
+  }
+}

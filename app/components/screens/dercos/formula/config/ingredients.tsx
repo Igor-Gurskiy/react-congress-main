@@ -1,0 +1,68 @@
+const dercosIngredients = [
+    {
+        id: 'octane',
+        source: '/assets/images/dercos/formula/ingredients/octane.png',
+        layer: '/assets/images/dercos/formula/layers/octane.png',
+        caption: <div>Октеин</div>,
+        pos: { x: 6.5, y: 17 },
+        mPos: { x: 5, y: 23 },
+    },
+    {
+        id: 'salycil',
+        source: '/assets/images/dercos/formula/ingredients/salycil.png',
+        layer: null,
+        caption: <div>Салициловая<br />кислота</div>,
+        pos: { x: 25, y: 30 },
+        mPos: { x: 5, y: 41 },
+    },
+    {
+        id: 'argenin',
+        source: '/assets/images/dercos/formula/ingredients/argenin.png',
+        layer: '/assets/images/dercos/formula/layers/argenin.png',
+        caption: <div>Аргинин</div>,
+        pos: { x: 6.5, y: 52 },
+        mPos: { x: 5, y: 59 },
+    },
+    {
+        id: 'volcano',
+        source: '/assets/images/dercos/formula/ingredients/volcano.png',
+        layer: '/assets/images/dercos/formula/layers/volcano.png',
+        caption: <div>Вулканическая<br />вода VICHY</div>,
+        pos: { x: 25, y: 65.5 },
+        mPos: { x: 5, y: 77 },
+    },
+    {
+        id: 'aminexil',
+        source: '/assets/images/dercos/formula/ingredients/aminexil.png',
+        layer: '/assets/images/dercos/formula/layers/aminexil.png',
+        caption: <div>Аминексил</div>,
+        pos: { x: 63.5, y: 30 },
+        mPos: { x: 75, y: 23 },
+    },
+    {
+        id: 'sp94',
+        source: '/assets/images/dercos/formula/ingredients/sp94.png',
+        layer: '/assets/images/dercos/formula/layers/sp94.png',
+        caption: <div>SP94</div>,
+        pos: { x: 82, y: 17 },
+        mPos: { x: 75, y: 41 },
+    },
+    {
+        id: 'selen',
+        source: '/assets/images/dercos/formula/ingredients/selen.png',
+        layer: null,
+        caption: <div>Дисульфид<br />селена</div>,
+        pos: { x: 63.5, y: 65.5 },
+        mPos: { x: 75, y: 59 },
+    },
+    {
+        id: 'mocha',
+        source: '/assets/images/dercos/formula/ingredients/mocha.png',
+        layer: null,
+        caption: <div>Мочевина</div>,
+        pos: { x: 82, y: 52 },
+        mPos: { x: 75, y: 77 },
+    },
+]
+
+export default dercosIngredients

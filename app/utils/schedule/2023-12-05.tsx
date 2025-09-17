@@ -1,0 +1,128 @@
+import { ScheduleSectionType } from '@/components/Schedule/ScheduleSection'
+import { EventsEnum } from '@/api/tracker'
+
+const schedule: ScheduleSectionType[] = [
+	{
+		id: 1,
+		slug: 'pharmacy',
+		name: 'СЕКЦИЯ «Фармация»',
+		start: 1701759600000,
+		end: 1701787500000,
+		live: true,
+		calendar: false,
+		visible: false,
+		googleLink:
+			'http://www.google.com/calendar/event?action=TEMPLATE&dates=20231205T070000Z%2F20231205T144500Z&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%A4%D0%B0%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%22&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&details=',
+		iosLink: '/assets/calendar/5_dec_farm.ics',
+		record: undefined,
+		events: [
+			{
+				id: 1,
+				name: 'Тренды и актуальные косметические ингредиенты 2024',
+				author: 'Немятых О.Д. — д.фарм.н., проф.',
+				start: 1701759600000,
+				end: 1701762600000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video1,
+			},
+			{
+				id: 2,
+				name: 'Полная формула: от знания отдельных ингредиентов к пониманию состава',
+				author: 'Голдобина М.В. — врач-дерматолог, косметолог, член EADV, IDS',
+				start: 1701762600000,
+				end: 1701765300000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video2,
+			},
+			{
+				id: 3,
+				name: 'Современные системы доставки активных ингредиентов дерматокосметики к клеткам кожи',
+				author: 'Немятых О.Д. — д.фарм.н., проф.',
+				start: 1701765300000,
+				end: 1701768000000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video3,
+			},
+			{
+				id: 4,
+				name: 'Фармакодинамическое взаимодействие активных ингредиентов в составе дерматокосметики',
+				author:
+					'Оковитый С.В. — д.м.н., проф., зав. кафедры фармакологии СПХФА',
+				start: 1701768000000,
+				end: 1701770700000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video4,
+			},
+			{
+				id: 5,
+				name: 'Консерванты в косметике: мифы и перспективы',
+				author:
+					'Штукерт Е.Р. — провизор, руководитель проектов обучения BD LDB',
+				start: 1701770700000,
+				end: 1701773400000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video5,
+			},
+			{
+				id: 6,
+				name: 'Растительные источники БАВ для дерматокосметики',
+				author:
+					'Тернинко И.И. — д.фарм.н., проф. кафедры фармацевтической химии СПГХФУ',
+				start: 1701773400000,
+				end: 1701776100000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video6,
+			},
+			{
+				id: 7,
+				name: 'Стандарты качества создания косметических формул',
+				author:
+					"Кандалова А. — руководитель отдела рекламаций и косметологического контроля научной дирекции L'Oreal",
+				start: 1701776100000,
+				end: 1701778800000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video7,
+			},
+			{
+				id: 8,
+				name: 'Контроль качества косметических формул на производстве',
+				author:
+					"Раменская Н. — директор контроля качества косметического производства L'Oreal",
+				start: 1701778800000,
+				end: 1701781500000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video8,
+			},
+			{
+				id: 9,
+				name: 'Позиционирование в продвижении дерматокосметики',
+				author: 'Басакина И.И. — к.фарм.н., доцент',
+				start: 1701781500000,
+				end: 1701784200000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video9,
+			},
+			{
+				id: 10,
+				name: 'Дерматокосметика в аптеке: техника эффективных продаж',
+				author: 'Демченко Д.Д. — к.фарм.н., доцент',
+				start: 1701784200000,
+				end: 1701787500000,
+				preview: '',
+				previewImage: '',
+				trackerId: EventsEnum.confDay6Video10,
+			},
+		],
+	},
+]
+
+export default schedule

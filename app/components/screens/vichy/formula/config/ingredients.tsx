@@ -1,0 +1,68 @@
+const vichyIngredients = [
+    {
+        id: 'salycil',
+        source: '/assets/images/vichy/formula/ingredients/salycil.png',
+        layer: null,
+        caption: <div>Салициловая<br />кислота</div>,
+        pos: { x: 6.5, y: 17 },
+        mPos: { x: 5, y: 23 },
+    },
+    {
+        id: 'glycol',
+        source: '/assets/images/vichy/formula/ingredients/glycol.png',
+        layer: '/assets/images/vichy/formula/layers/glyco.png',
+        caption: <div>Гликолевая<br />кислота</div>,
+        pos: { x: 25, y: 30 },
+        mPos: { x: 5, y: 41 },
+    },
+    {
+        id: 'cg',
+        source: '/assets/images/vichy/formula/ingredients/cg.png',
+        layer: '/assets/images/vichy/formula/layers/cg.png',
+        caption: <div>Витамин CG</div>,
+        pos: { x: 6.5, y: 52 },
+        mPos: { x: 5, y: 59 },
+    },
+    {
+        id: 'sugar',
+        source: '/assets/images/vichy/formula/ingredients/sugar.png',
+        layer: null,
+        caption: <div>Фикосахарид</div>,
+        pos: { x: 25, y: 65.5 },
+        mPos: { x: 5, y: 77 },
+    },
+    {
+        id: 'niacinamid',
+        source: '/assets/images/vichy/formula/ingredients/niacinamid.png',
+        layer: '/assets/images/vichy/formula/layers/niacinamid.png',
+        caption: <div>Ниацинамид</div>,
+        pos: { x: 63.5, y: 30 },
+        mPos: { x: 75, y: 23 },
+    },
+    {
+        id: 'peptides',
+        source: '/assets/images/vichy/formula/ingredients/peptides.png',
+        layer: '/assets/images/vichy/formula/layers/peptides.png',
+        caption: <div>Пептиды</div>,
+        pos: { x: 82, y: 17 },
+        mPos: { x: 75, y: 41 },
+    },
+    {
+        id: 'tranex',
+        source: '/assets/images/vichy/formula/ingredients/tranex.png',
+        layer: '/assets/images/vichy/formula/layers/tranexam.png',
+        caption: <div>Транексамовая<br />кислота</div>,
+        pos: { x: 63.5, y: 65.5 },
+        mPos: { x: 75, y: 59 },
+    },
+    {
+        id: 'proxilan',
+        source: '/assets/images/vichy/formula/ingredients/proxilan.png',
+        layer: null,
+        caption: <div>Про-ксилан</div>,
+        pos: { x: 82, y: 52 },
+        mPos: { x: 75, y: 77 },
+    },
+]
+
+export default vichyIngredients

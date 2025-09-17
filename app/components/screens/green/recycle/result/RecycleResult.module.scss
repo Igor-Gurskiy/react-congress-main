@@ -1,0 +1,232 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 958px;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 30px;
+
+  min-height: 570px;
+  background: #E0E0E0;
+  padding: 80px 140px 45px;
+
+  @media (max-width: 767px) {
+    padding: 70px 34px 35px;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.shape1 {
+  @apply absolute pointer-events-none;
+
+  top: calc(315 / 752 * 100%);
+  left: calc(118 / 958 * 100%);
+  width: calc(135 / 958 * 100%);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.shape2 {
+  @apply absolute pointer-events-none;
+
+  top: calc(223 / 752 * 100%);
+  right: calc(89 / 958 * 100%);
+  width: calc(202 / 958 * 100%);
+
+  @media (max-width: 767px) {
+    top: calc(290 / 752 * 100%);
+    right: calc(18 / 364 * 100%);
+    width: calc(120 / 364 * 100%);
+    max-width: 150px;
+  }
+}
+
+.shape3 {
+  @apply absolute pointer-events-none;
+
+  top: calc(185 / 752 * 100%);
+  left: 50%;
+  width: calc(1293 / 958 * 100%);
+  height: calc(1075 / 958 * 100%);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, 0);
+
+  @media (max-width: 767px) {
+    top: calc(185 / 752 * 100%);
+    left: 50%;
+    min-width: 580px;
+    width: calc(1293 / 958 * 100%);
+    height: calc(1075 / 958 * 100%);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+.shape4 {
+  @apply absolute pointer-events-none;
+
+  top: calc(113 / 752 * 100%);
+  right: calc(224 / 958 * 100%);
+  width: calc(72 / 958 * 100%);
+
+  @media (max-width: 767px) {
+    top: calc(156 / 785 * 100%);
+    right: auto;
+    left: calc(28 / 364 * 100%);
+    width: 27px;
+  }
+}
+
+.result {
+  text-align: center;
+
+  @media (max-width: 767px) {
+    padding-top: 20px;
+    margin: auto;
+  }
+
+}
+
+.resultHead {
+  position: relative;
+  margin-bottom: 60px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 85px;
+  }
+}
+
+.gameTotal {
+  display: inline-flex;
+  position: relative;
+
+  @media (max-width: 767px) {
+    img {
+      width: 215px;
+    }
+  }
+
+}
+
+.gameTotalMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.gameTotalView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 192px;
+  width: 192px;
+  background: #ffffff;
+  border-radius: 50%;
+
+  @media (max-width: 767px) {
+    height: 147px;
+    width: 147px;
+  }
+}
+
+.gameTotalBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  circle {
+    stroke-dashoffset: 0;
+    /* transition: stroke-dashoffset 1s linear; */
+    stroke: #ffffff;
+    stroke-width: 24px;
+  }
+
+  circle[id=bar] {
+    stroke: #8CCF3A;
+  }
+}
+
+.gameTotalCount {
+  position: relative;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 78px;
+  text-align: center;
+  color: #000000;
+}
+
+.resultBody {
+  position: relative;
+}
+
+.resultTitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.28;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}
+
+.resultCaption {
+  max-width: 390px;
+  padding: 18px 44px 15px;
+  margin: 0 auto 40px;
+  border-radius: 30px;
+  background: #ffffff;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+}
+
+.playAgain {
+  @apply flex flex-center uppercase text-center cursor-pointer m-auto;
+  width: 183px;
+  height: 49px;
+  left: 871px;
+  top: 543px;
+
+  background: #8CCF3A;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2C2C2C;
+}

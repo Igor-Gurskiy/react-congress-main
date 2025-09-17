@@ -1,0 +1,230 @@
+.wrapper {
+  @apply w-screen flex;
+
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  --size: calc(0.5vmax + 0.5vmin);
+
+  @media screen and (max-width: 1024px) {
+    height: calc(var(--vh, 1vh) * 100);
+    overflow-y: auto;
+
+  }
+}
+
+.caseOne {
+  background-image: url("/assets/images/vichy/game/case1/bg.jpg");
+}
+
+.caseTwo {
+  background-image: url("/assets/images/vichy/game/case2/bg.jpg");
+}
+
+.caseThree {
+  background-image: url("/assets/images/vichy/game/case3/bg.jpg");
+}
+
+.result {
+  background-image: url("/assets/images/vichy/game/result-bg.jpg");
+  background-position: center;
+  background-size: contain;
+
+  @media screen and (max-width: 1024px) {
+    background-image: url("/assets/images/vichy/game/tablet-bg.jpg");
+    background-size: contain;
+    background-position: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    background-image: none;
+  }
+}
+
+
+.aside {
+  max-height: 100vh;
+  max-width: 40vw;
+  height: auto;
+  align-self: flex-start;
+}
+
+.container {
+  @apply absolute top-0 right-0 bottom-0 h-full w-full lg:max-w-[70%] flex flex-col;
+}
+
+//.progress {
+//  @apply absolute top-5 w-full right-0 lg:right-[unset] lg:left-[7vw] z-50;
+//}
+
+.progress {
+  @apply absolute top-[calc(10*var(--size))] w-full pl-[calc(10*var(--size))] pr-[calc(2*var(--size))] flex justify-end lg:px-0 lg:top-5 lg:left-[7vw] z-50 lg:block;
+}
+
+
+.body {
+  @apply overflow-y-auto flex flex-col h-full;
+}
+
+.content {
+  @apply flex gap-x-8 flex-grow w-full justify-between overflow-x-hidden w-full pl-[7vw];
+  margin-top: calc(6.85 * var(--size));
+}
+
+.main {
+  @apply flex-grow w-full;
+  //margin-left: 7vw;
+}
+
+.complaints {
+  @apply flex items-center;
+  margin-top: calc(1.4 * var(--size));
+  margin-bottom: calc(1.4 * var(--size));
+}
+
+.question {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+  font-size: calc(2.3 * var(--size));
+  margin-top: calc(1.14 * var(--size));
+  margin-bottom: calc(1.14 * var(--size));
+}
+
+.choose {
+  @apply flex items-center justify-center w-full my-4;
+
+  button {
+    max-width: 110px;
+
+  }
+}
+
+.caption {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-right: 24px;
+  font-size: calc(1.4 * var(--size));
+}
+
+.list {
+  max-width: calc(44 * var(--size));
+  list-style: none;
+}
+
+.listItem {
+  position: relative;
+  color: #565656;
+  font-size: 20px;
+  font-size: calc(1.4 * var(--size));
+  font-weight: 300;
+
+  line-height: 120%;
+
+  border-radius: 4px;
+  background: linear-gradient(90deg, #FFF 8.92%, rgba(255, 255, 255, 0.00) 100%);
+
+  padding: 4px 16px 4px 48px;
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    background: #565656;
+    width: 6px;
+    height: 6px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.product {
+  @apply max-h-[50vh] h-full;
+}
+
+.productContainer {
+  @apply flex justify-center items-end flex-col flex-grow;
+}
+
+.box {
+  @apply flex flex-col items-center h-full;
+}
+
+.quizz {
+  @apply grid grid-cols-4 my-6;
+  margin-right: calc(6.5 * var(--size));;
+  margin-top: calc(1.14 * var(--size));
+  margin-bottom: calc(1.14 * var(--size));
+}
+
+.area {
+  @apply flex gap-x-4
+}
+
+.puzzle {
+  @apply cursor-pointer transition-transform text-center;
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  border-radius: 20px;
+  border: 2px dashed #CCC;
+  width: 96px;
+  height: 176px;
+  width: calc(6.85 * var(--size));
+  height: calc(12.5 * var(--size));
+}
+
+.currentPuzzle {
+  border: 4px solid #CCC;
+}
+
+.selected {
+  border-color: transparent;
+}
+
+.section {
+  @apply w-full h-full px-4;
+  padding-left: calc(1.14 * var(--size));
+  padding-right: calc(1.14 * var(--size));
+  margin-top: calc(1.7 * var(--size));
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(1.7 * var(--size));
+}
+
+.sectionDivider {
+  @apply relative;
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 75px;
+    height: calc(5.35 * var(--size));
+    background: #000;
+  }
+}

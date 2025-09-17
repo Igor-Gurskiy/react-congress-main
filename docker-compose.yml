@@ -1,0 +1,17 @@
+# docker-compose run --name node14 --rm --service-ports node14
+
+version: '3'
+
+services:
+  node14:
+    image: node:14-slim
+    container_name: node14-slim
+    working_dir: /app
+    volumes:
+      - .:/app
+    # command: sh -c "yarn install --frozen-lockfile && yarn cache clean && sh"
+    command: sh -c "yarn install --no-lockfile && yarn cache clean && sh"
+    ports:
+      - 3000:3000
+    user: node
+    network_mode: host

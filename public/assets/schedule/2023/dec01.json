@@ -1,0 +1,117 @@
+{
+  "date": "2023-12-01",
+  "data": [
+    {
+      "id": 1,
+      "slug": "kids-n-teens",
+      "name": "СЕКЦИЯ «ДЕТИ И ПОДРОСТКИ»",
+      "start": 1701414000000,
+      "end": 1701435600000,
+      "live": true,
+      "calendar": false,
+      "visible": false,
+      "googleLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231201T070000Z%2F20231201T130000Z&details=%2F&location=https%3A%2F%2Fldbcongress.loreal.com.ru%2F&text=%22LDB%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81.%20%D0%A1%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%22%D0%94%D0%B5%D1%82%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D1%81%D1%82%D0%BA%D0%B8%22",
+      "iosLink": "/assets/calendar/1_dec_kids.ics",
+      "record": "",
+      "events": [
+        {
+          "id": 1,
+          "name": "Кожные заболевания в структуре приёма педиатра. Манифестация хронических дерматозов детей раннего возраста",
+          "author": "Захарова И.Н. — заслуженный врач РФ, д.м.н., проф., врач-педиатр",
+          "start": 1701414000000,
+          "end": 1701417000000,
+          "preview": "PK9wFzuUIhA",
+          "previewImage": "assets/images/conference/2023/day2/s1.png",
+          "trackerId": "confDay2Video1"
+        },
+        {
+          "id": 2,
+          "name": "Современный уход за кожей детей раннего возраста",
+          "author": "Захарова И.Н. — заслуженный врач РФ, д.м.н., проф., врач-педиатр",
+          "start": 1701417000000,
+          "end": 1701419400000,
+          "preview": "QMFU451QWLs",
+          "previewImage": "assets/images/conference/2023/day2/s2.png",
+          "trackerId": "confDay2Video2"
+        },
+        {
+          "id": 3,
+          "name": "Искусство дифференциальной диагностики в зоне подгузника",
+          "author": "Заславский Д.В. — заслуженный врач РФ, д.м.н., проф., врач-дерматолог",
+          "start": 1701419400000,
+          "end": 1701421800000,
+          "preview": "2v-HWg_NqGs",
+          "previewImage": "assets/images/conference/2023/day2/s3.png",
+          "trackerId": "confDay2Video3"
+        },
+        {
+          "id": 4,
+          "name": "Нуждаются ли дети в ежедневном использовании эмолентов? За и против",
+          "author": "<p>Новик Г.А. — д.м.н., проф., аллерголог-иммунолог</p><p>Тамразова О.Б. — д.м.н., проф., врач-дерматолог</p>",
+          "start": 1701421800000,
+          "end": 1701424800000,
+          "preview": "e6yXuLw2SpA",
+          "previewImage": "assets/images/conference/2023/day2/s4.png",
+          "trackerId": "confDay2Video4"
+        },
+        {
+          "id": 5,
+          "name": "Разбор клинических случаев пациентов с АД на приёме у аллерголога",
+          "author": "Пампура А.Н. — д.м.н., проф., аллерголог-иммунолог",
+          "start": 1701424800000,
+          "end": 1701426600000,
+          "preview": "6kzSRF7gaug",
+          "previewImage": "assets/images/conference/2023/day2/s5.png",
+          "trackerId": "confDay2Video5"
+        },
+        {
+          "id": 6,
+          "name": "<div class=\"break\">Перерыв</div>",
+          "author": null,
+          "start": 1701426600000,
+          "end": 1701427200000
+        },
+        {
+          "id": 7,
+          "name": "Псориаз у детей и подростков: современные вызовы и решения",
+          "author": "Мурашкин Н.Н. — д.м.н., проф., врач-дерматолог",
+          "start": 1701427200000,
+          "end": 1701429000000,
+          "preview": "v6ABhYiqrOY",
+          "previewImage": "assets/images/conference/2023/day2/s6.png",
+          "trackerId": "confDay2Video6"
+        },
+        {
+          "id": 8,
+          "name": "От акне младенцев до акне подростков.<br />Клинические рекомендации",
+          "author": "Хлебникова А.Н. — д.м.н., проф., врач-дерматолог",
+          "start": 1701429000000,
+          "end": 1701430800000,
+          "preview": "BAPRGDOWjbk",
+          "previewImage": "assets/images/conference/2023/day2/s7.png",
+          "trackerId": "confDay2Video7"
+        },
+        {
+          "id": 9,
+          "name": "Применение биологической терапии у детей.<br />Клинические рекомендации",
+          "author": "Феденко Е.С. — д.м.н., проф., аллерголог-иммунолог",
+          "start": 1701430800000,
+          "end": 1701432600000,
+          "preview": "eq19IaSY8FE",
+          "previewImage": "assets/images/conference/2023/day2/s8.png",
+          "trackerId": "confDay2Video8"
+        },
+        {
+          "id": 10,
+          "name": "Возможности дерматокосметики. Советы эксперта La Roche-Posay",
+          "author": "Петрова Ю.Ю. — эксперт марки La Roche-Posay",
+          "start": 1701432600000,
+          "end": 1701435600000,
+          "preview": "4katKHYwT9U",
+          "previewImage": "assets/images/conference/2023/day2/s9.png",
+          "trackerId": "confDay2Video9"
+        }
+      ]
+    }
+  ]
+}
