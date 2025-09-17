@@ -9,4 +9,4 @@ module.exports = {
 //   assetPrefix: process.env.NODE_ENV === 'production' ? '/react-congress-main' : '',
 //   basePath: process.env.NODE_ENV === 'production' ? '/react-congress-main' : '',
 //   trailingSlash: true,
-// }
+// 
