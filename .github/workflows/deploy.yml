@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: Deploy Next.js to GitHub Pages
 
 on:
   push:
@@ -10,10 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-inprogress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
           cache: 'yarn'
 
       - name: Install dependencies
@@ -33,7 +29,7 @@ jobs:
       - name: Build with Next.js
         run: yarn build
         env:
-          PAGES_BASE_PATH: ${{ github.event.repository.name }}
+          NODE_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
