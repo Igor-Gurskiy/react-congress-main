@@ -14,28 +14,33 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "20"
           cache: 'yarn'
           
       - name: Install dependencies
         run: yarn install --frozen-lockfile
         
-      - name: Build project
-        run: yarn build
-        
-      - name: Export static files
-        run: yarn export
+      - name: Build with Next.js
+        run: |
+          yarn build
+          yarn export
+          # Переименовываем _next в next для GitHub Pages
+          cd out && mv _next next
+          # Обновляем пути в HTML файлах
+          find . -name "*.html" -exec sed -i 's/\/_next\//\/next\//g' {} \;
+          find . -name "*.js" -exec sed -i 's/\/_next\//\/next\//g' {} \;
+          find . -name "*.css" -exec sed -i 's/\/_next\//\/next\//g' {} \;
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: './out'
 
   deploy:
     environment:
