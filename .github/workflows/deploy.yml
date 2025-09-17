@@ -30,12 +30,15 @@ jobs:
         run: |
           yarn build
           yarn export
-          # Переименовываем _next в next для GitHub Pages
-          cd out && mv _next next
-          # Обновляем пути в HTML файлах
+          # Создаем .nojekyll файл
+          touch out/.nojekyll
+          # Копируем _next в next и обновляем пути
+          cd out && cp -r _next next
           find . -name "*.html" -exec sed -i 's/\/_next\//\/next\//g' {} \;
           find . -name "*.js" -exec sed -i 's/\/_next\//\/next\//g' {} \;
           find . -name "*.css" -exec sed -i 's/\/_next\//\/next\//g' {} \;
+          # Также обновляем пути для assetPrefix
+          find . -name "*.html" -exec sed -i 's/\/react-congress-main\/_next\//\/react-congress-main\/next\//g' {} \;
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -50,4 +53,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
